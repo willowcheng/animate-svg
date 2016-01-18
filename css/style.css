@@ -11,20 +11,37 @@ svg {
     float: left;
 }
 
+.gear-bg,
+.hammer-bg,
+.heart-bg {
+    transition: .3s ease-out;
+}
+
 /* --------------------------
   GEAR
 --------------------------- */
 
-
+.gear-bg:hover {
+    fill: #3881cc;
+}
 
 /* --------------------------
   HAMMER
 --------------------------- */
 
+.hammer-bg {
+    stroke: #fee16e;
+}
 
+.hammer-bg:hover {
+    fill: #feae6e;
+    stroke-width: 8px;
+}
 
 /* --------------------------
   HEART
 --------------------------- */
 
-
+.heart-bg:hover {
+    fill: #ff5e5e;
+}
